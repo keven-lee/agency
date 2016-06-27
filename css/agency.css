@@ -547,10 +547,12 @@ aside.clients img {
     margin: 50px auto
 }
 section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
-    background-position: center;
-    background-repeat: no-repeat
+
+
+background: #000000; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
 }
 section#contact .section-heading {
     color: #fff
@@ -740,12 +742,14 @@ body {
     position: relative;
     padding: 20px;
 }
-
+#services {
+    margin-top: 500px;
+}
 .video-container {
     position: absolute;
     top: 0%;
     left: 0%;
-    height: 100%;
+    height: 200%;
     width: 100%;
     overflow: hidden;
 }
@@ -761,7 +765,7 @@ h3 {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 11%;
+    margin-top: 20%;
     padding: 10px;
     width: 700px;
     letter-spacing: 3px;
@@ -771,6 +775,7 @@ h3 {
 }
 
 h3.header-subtitle {
+    margin-top: auto;
     font-size: 30px;
     letter-spacing: 7px;
     font-weight: 300;
