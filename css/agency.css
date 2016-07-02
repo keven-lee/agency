@@ -23,13 +23,13 @@ a.active {
     outline: 0
 }
 a {
-    color: #444;
+    color: #36c0fe;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #444;
+    color: #36c0fe;
 }
 h1,
 h2,
@@ -178,7 +178,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-    color: #444;
+    color: #36c0fe;
     outline: 0
 }
 .navbar-default .navbar-nav>.active>a {
